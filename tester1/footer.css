@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+body
+{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+
+.sponsor
+{   
+    display: flex;
+    flex-direction: column;
+
+}
+.prim
+{   text-align: center;
+    display: flex;
+    flex-direction: row;
+   margin-left: 38%;
+   padding: 3%;
+   margin-bottom: 3%;
+  
+  
+}
+.prim img{
+    max-width: 40%;
+    padding: .5%;
+    border: solid 5px white;
+}
+.secon
+{   text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    padding: 3%;
+
+}
+.secon img{
+    max-width: 25%;
+    padding: .5%;
+    border: solid 5px white;
+}
+body{
+    background-color:#F0F0F0;
+    font-family: 'Poppins', sans-serif;
+}
+.one
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+#pl{
+    width: 22rem;
+    background-color: gainsboro;
+}
+#pl:hover{
+    transform: scale(1.05);
+}
+#navbarSupportedContent a:hover
+{
+    color: blue;
+}
+#logo img{
+    max-width:60% ;
+}
+.col h4
+    {
+     padding:3%;
+     color:#EF3C43;
+     margin-left: 25%;
+     padding-top: 10% ;
+    }
+@media all and (max-width:900px)
+{
+
+    .prim{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ 
+    margin: 0;
+
+    }
+    .prim img
+    {
+     margin-left: 18%;
+    text-align: center;
+     max-width: 60%;
+     padding: 3%;
+    }
+    .secon
+    {  
+        text-align: center;
+        display: flex;
+        margin: 0;
+
+        flex-direction: column;
+      
+    }
+
+    .secon img{
+        margin-left: 18%;
+        max-width: 60%;
+        padding: 3%;
+
+    }
+   
+    .col p
+    {
+        text-align: center;
+    }
+    .col h4
+    {
+     padding:3%;
+     color:#EF3C43;
+    margin-left: 5%;
+     
+    }
+    .one
+{   align-items: center;
+   
+    display: flex;
+    flex-direction: column;
+   
+    padding: 2%;
+}
+.col1
+{
+    font-size: larger;
+}
+#pl
+{
+    width: 22rem;
+}
+#foot{
+    text-align: center;
+    display: flex;
+    padding: 1%;
+    flex-direction: column;
+    justify-content: center;
+}
+#logo img
+{
+   max-width: 40%;
+  
+}
+
+}
+    
+
+    
+    .prim img:hover
+      {
+        
+          transform:scale(1.05);
+      }
+      .secon img:hover
+      {
+        
+          transform:scale(1.05);
+      }
+      .icon i:hover
+      {
+          color: goldenrod;
+      }
+      .col h4:hover
+      {
+          color: goldenrod;
+      }
+      .col h2:hover
+      {
+          color: goldenrod;
+      }
+.picalign{
+    text-align: center;
+}
